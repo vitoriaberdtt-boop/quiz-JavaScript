@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(26, 26, 26);
+    overflow-x: hidden;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1;
+}
+header {
+    background-color: rgb(244, 244, 5);
+}
+
+
+/*mobile*/
+@media (min-width: 50px) and (max-width: 600px) {
+img {
+    height: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 0.3rem solid;
+}
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+h2 {
+    color: rgb(231, 251, 166);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+h3 {
+    font-family: Helvetica;
+    font-size: 0.1rem;
+    text-align: center;
+    padding: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    color: rgb(231, 251, 166);
+}
+input {
+    background-color: rgb(115, 118, 111);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    box-sizing: border-box;
+    height: 4rem;
+    width: 100%;
+
+}
+
+header {
+    width: 100%; 
+    display: flex;
+    align-items: space-around;
+    justify-content: space-around;
+    padding: 0.5rem;
+    background-color: yellow;
+}
+
+
+fieldset {
+  border-radius: 3rem;
+  border: 0.2rem solid yellow;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  justify-self: space-around;
+
+}
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    color: rgb(231, 251, 166);
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+#re {
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+#result {
+    font-size: 2rem;
+    color: rgb(231, 251, 166);
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+  
+}
+/*tablet*/
+@media (min-width: 601px) and (max-width: 759px){
+img {
+    height: 3rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 0.3rem solid;
+}
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+h2 {
+    color: rgb(231, 251, 166);
+    margin-bottom: 1rem;
+}
+input {
+    background-color: rgb(115, 118, 111);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    box-sizing: border-box;
+    height: 5rem;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: yellow;
+}
+
+
+fieldset {
+  border-radius: 3rem;
+  border: 0.2rem solid yellow;
+  padding: 3rem;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  justify-self: space-around;
+}
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    color: rgb(231, 251, 166);
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+#re {
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+#result {
+    font-size: 2rem;
+    color: rgb(231, 251, 166);
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+  
+}
+/*laptop*/
+@media (min-width: 760px) and (max-width: 1024px) {
+img {
+    height: 3rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 0.3rem solid;
+}
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+h2 {
+    color: rgb(231, 251, 166);
+    margin-bottom: 1rem;
+}
+input {
+    background-color: rgb(115, 118, 111);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    height: 5rem;
+    width: 100%;
+}
+header{
+    padding: 2rem auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+fieldset {
+  border-radius: 3rem;
+  border: 0.2rem solid yellow;
+  padding: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  justify-self: space-around;
+}
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    color: rgb(231, 251, 166);
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+#re {
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+#result {
+    font-size: 2rem;
+    color: rgb(231, 251, 166);
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+  
+}
+/*desktop*/
+@media (min-width: 1025px) and (max-width: 1200px) {
+  
+img {
+    height: 3rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 0.3rem solid;
+}
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+h2 {
+    color: rgb(231, 251, 166);
+    margin-bottom: 1rem;
+}
+input {
+    background-color: rgb(115, 118, 111);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    justify-self: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    box-sizing: border-box;
+    height: 5rem;
+    width: 100%;
+}
+header{
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+fieldset {
+  border-radius: 3rem;
+  border: 0.2rem solid yellow;
+  padding: 4rem;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  justify-self: space-around;
+}
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    color: rgb(231, 251, 166);
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+#re {
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+#result {
+    font-size: 2rem;
+    color: rgb(231, 251, 166);
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+  
+}
+/*monitores grandes*/
+@media (min-width: 1201px) {
+
+img {
+    height: 3rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 0.3rem solid;
+}
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+h2 {
+    color: rgb(231, 251, 166);
+    margin-bottom: 1rem;
+}
+h3 {
+    font-family: Helvetica;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    color: rgb(231, 251, 166);
+}
+input {
+    background-color: rgb(115, 118, 111);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    margin-left: auto;
+    margin-right: 10rem auto;
+    align-items: center;
+    font-size: 1.2em;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid;
+    box-sizing: border-box;
+    flex-direction: row;
+    height: 5rem;
+    width: 100%;
+}
+header{
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+fieldset {
+  border-radius: 3rem;
+  border: 0.2rem solid yellow;
+  padding: 5rem;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  justify-self: space-around;
+}
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 2rem;
+    color: rgb(231, 251, 166);
+    font-size: 1.2rem;
+    margin-top: 3rem;
+}
+#re {
+    display: flex;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+
+}
+#result {
+    font-size: 2rem;
+    color: rgb(231, 251, 166);
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+}
